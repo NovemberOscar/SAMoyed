@@ -1,8 +1,21 @@
 [tool.poetry]
-name = "samoyed"
-version = "0.1.0"
-description = "Idiomatic AWS lambda utility easpacially for SAM"
+name = "SAMoyed"
+version = "0.1.0-alpha.1"
+description = "Idiomatic AWS lambda utility specialized for SAM"
+license = "MIT"
 authors = ["Seonghyeon Kim <self@seonghyeon.dev>"]
+readme = "README.md"
+repository = "https://github.com/NovemberOscar/SAMoyed"
+keywords = ["aws", "serverless", "lambda"]
+classifiers=[
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
