@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "SAMoyed"
-version = "0.1.0-alpha.1"
+version = "0.1.0.dev1"
 description = "Idiomatic AWS lambda utility specialized for SAM"
 license = "MIT"
 authors = ["Seonghyeon Kim <self@seonghyeon.dev>"]
